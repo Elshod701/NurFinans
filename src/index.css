@@ -2,26 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: #000;
+@font-face {
+  font-family: "Ubuntu-light";
+  src: url("./assets/fonts/Ubuntu-Light.ttf");
 }
 
-@layer base {
-  :root {
-    --background: 0, 0%, 96.1%;
-    --secondary-background: 210, 36%, 96%;
-    --secondary-text: 203, 34%, 57%, 1;
-    --primary: 240, 100%, 43%, 1;
-    --white: 0, 0%, 101%, 1;
-    --black: 0, 0%, 1%, 1;
-  }
+@font-face {
+  font-family: "Ubuntu-regular";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+@font-face {
+  font-family: "Ubuntu-medium";
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-bold";
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
 }

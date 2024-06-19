@@ -9,6 +9,13 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      'ubuntu-light': ['Ubuntu-light'],
+      'ubuntu-regular': ['Ubuntu-regular'],
+      'ubuntu-medium': ['Ubuntu-medium'],
+      'ubuntu-bold': ['Ubuntu-bold'],
+
+    },
     container: {
       center: true,
       padding: "2rem",

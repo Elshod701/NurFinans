@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "./layout/header/header";
 
 export default function App() {
   return (
-    <div className="bg-primary p-5 text-primary-foreground ">Apasdasdp</div>
+    <>
+      <Header />
+    </>
   );
 }
